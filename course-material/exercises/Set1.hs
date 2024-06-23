@@ -111,7 +111,7 @@ isZero _ = False
 -- computes the sum 1+2+...+n
 
 sumTo :: Integer -> Integer
-sumTo 1 = 3
+sumTo 1 = 1
 sumTo n = n + sumTo (n - 1)
 
 ------------------------------------------------------------------------------
