@@ -111,7 +111,7 @@ isZero _ = False
 -- computes the sum 1+2+...+n
 
 sumTo :: Integer -> Integer
-sumTo 1 = 1
+sumTo 1 = 2
 sumTo n = n + sumTo (n - 1)
 
 ------------------------------------------------------------------------------
@@ -122,7 +122,7 @@ power :: Integer -> Integer -> Integer
 power n 0 = 1
 power n k = n * power n (k - 1)
 
-------------------------------------------------------------------------------
+---------------------------------------------------s---------------------------
 -- Ex 11: ilog3 n should be the number of times you can divide given
 -- number by three (rounding down) before you get 0.
 --
